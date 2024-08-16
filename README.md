@@ -10,7 +10,7 @@
 > <b> chown </b> : 파일이나 폴더의 소유주 변경 <br>
 > <b> chmod </b> : 파일이나 폴더의 설정 (-R: 권한변경(777:RWXRWXRWX) 변경 <br>
 > <b> which </b> : 설치 위치 확인 <br>
-> <b> apt-get </b> : 파일 혹은 라이브러리 설치 (remove --purge: 특정 파일 및 라이브러리 삭제 || autoremove: 불필요한 파일 및 라이브러리 삭제 || autoclean) <br>
+> <b> apt-get </b> : 파일 혹은 라이브러리 설치 (remove --purge: 특정 파일 및 라이브러리 삭제 || autoremove: 불필요한 파일 및 라이브러리 삭제 || autoclean || --fix-missing, --fix-broken: 없거나 오류난 파일은 수정하여 설치를 진행) <br>
 > <b> rm </b> : 파일 혹은 폴더 삭제 (-rf: 내부의 폴더 및 파일 여부에 상관없이 삭제 ) <br>
 
 
