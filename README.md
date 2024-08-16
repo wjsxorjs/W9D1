@@ -33,3 +33,9 @@
 
 > R-- : 게스트 권한
 > > R(4) = 4
+
+# 톰켓 기본 위치
+> HOME : /usr/share/tomcat10 <br>
+> CONF : /etc/tomcat10 <br>
+> LOG : /var/log/tomcat10 <br>
+> ROOT : /var/lib/tomcat10/webapps/ROOT <br>
