@@ -11,10 +11,10 @@
 
 
 ## 추가설명
-> drwxr-xr-x 2 root   root   4096 temp : <br>
-> > drwxr-xr-x : 
+> drwxr-xr-- 2 root   root   4096 temp : <br>
+> > drwxr-xr-- : 
 > > > d : 파일 유형 (d: 디렉터리 / -: 파일)<br>
-> > > r-x : 파일권한
+> > > rwxr-xr-- : 파일권한
 > > root : 소유자<br>
 > > root : 그룹<br>
 > > 4096 : 용량<br>
@@ -22,4 +22,10 @@
 > > temp : 파일 및 폴더명
 <br>
 
-> d
+# RWXR-XR-- : 
+> RWX : 소유자의 권한
+> > R(읽기): 4 || W(쓰기): 2 || X(실행): 1
+> R-X : 소유그룹 권한
+> > R(4) + X(1) = 5
+> R-- : 게스트 권한
+> > R(4) = 4
