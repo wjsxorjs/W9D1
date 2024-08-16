@@ -14,7 +14,7 @@
 > drwxr-xr-- 2 root   root   4096 temp : <br>
 > > drwxr-xr-- : 
 > > > d : 파일 유형 (d: 디렉터리 / -: 파일)<br>
-> > > rwxr-xr-- : 파일권한
+> > > rwxr-xr-- : 파일권한<br>
 > > root : 소유자<br>
 > > root : 그룹<br>
 > > 4096 : 용량<br>
